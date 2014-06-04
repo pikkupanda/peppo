@@ -10,8 +10,11 @@
   border-color: #003643
 }
 
-.logo {
-  background-color: rgba(255,255,255,0.5)
+header .columns {
+  background-color: rgba(255,255,255,0.5);
+  -webkit-border-radius: 1000px;
+  -moz-border-radius: 1000px;
+  border-radius: 1000px;
 }
 
 .logo span {
@@ -71,7 +74,7 @@ header .row { z-index: 2; position: relative; }
 .open-knowledge-foundation, .dat { width: 150px; float: right; }
 .dat { margin-right: 35px; position: relative; top: 20px; }
 
-.logo { font-family: 'Droid Sans Mono';}
+.logo, header p { font-family: 'Gloria Hallelujah', cursive;}
 
 .site-header {
   background-position: 50% 0px;
