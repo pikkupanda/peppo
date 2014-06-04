@@ -75,7 +75,7 @@ header .row { z-index: 2; position: relative; }
 
 .site-header {
   background-position: 50% 0px;
-  background-image: url("/dots.png");
+  background-image: url("dots.png");
 }
 
 
