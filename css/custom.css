@@ -10,9 +10,8 @@
   border-color: #003643
 }
 
-
-header .row {
-  background-color: rgba(255,255,255,0.6);
+.logo {
+  background-color: rgba(255,255,255,0.5)
 }
 
 .logo span {
@@ -27,7 +26,7 @@ header .row {
 }
 
 .section-signup {
-  background-color: rgb(0, 179, 189);
+  background-color: rgb(70, 191, 181);
 }
 
 .site-header .logo { color: black; }
@@ -76,7 +75,7 @@ header .row { z-index: 2; position: relative; }
 
 .site-header {
   background-position: 50% 0px;
-  background-image: url("http://fineartamerica.com/images-medium/blue-clown-stefan-nielsen.jpg");
+  background-image: url("/dots.png");
 }
 
 
@@ -109,7 +108,7 @@ footer, section {
 }
 
 .site-footer {
-  background-color: rgb(255, 130, 6);
+  background-color: rgb(247, 166, 48);
 }
 
 #whatweuse .two, #whatweuse h2 {
