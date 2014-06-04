@@ -11,10 +11,15 @@
 }
 
 header .columns {
-  background-color: rgba(255,255,255,0.5);
-  -webkit-border-radius: 1000px;
-  -moz-border-radius: 1000px;
-  border-radius: 1000px;
+  /*  I would love this to be a circle -- always 
+    This gets super akward on mobile
+  */
+  background-color: rgba(255,255,255,0.9);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  max-width: 50%;
+  line-height: 0;
 }
 
 .logo span {
@@ -22,7 +27,6 @@ header .columns {
 }
 
 .site-header { 
-  border-top: 5px solid #ac1300;
   background-color: #F7F7F7;
   text-shadow: none;
   color: black;
